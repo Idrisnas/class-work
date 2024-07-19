@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.ono{
+    background-color: rgb(239, 240, 241);
+    padding: 20px;
+    display: flex;
+    border: 2px solid black;
+}
+.ono img{
+    width: 70px;
+    height: 60px;
+}
+.ono p {
+    margin-top: 6px;
+    color: red;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.man {
+    text-align: center;
+border: 2px solid black;
+padding: 10px;
+}
+.man p{
+    color: red;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.man h5{
+    color: rgb(4, 4, 4);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ono{
+    display: flex;
+}
+.ono img{
+    width: 600px;
+    height: 500px;
+}
+.ono p{
+    margin-left: 10px;
+    color: red;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
