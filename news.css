@@ -47,3 +47,14 @@ padding: 10px;
     font-size: 23px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.footer_sect {
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(209, 209, 209, 0.5);
+    text-align: center;
+  }
+  .footer_sect p {
+    letter-spacing: 1px;
+  }
+  .footer_sect p span {
+    color: red;
+  }
