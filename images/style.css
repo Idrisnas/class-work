@@ -1,0 +1,10 @@
+*{margin:0px;padding:0px}
+.logo_img{width:10px}
+.navigation{display: flex; align-items: center; justify-content: space-between; padding: 10px; background-color: rgb(223, 213, 213)}
+.link{color: black; text-decoration: none; padding-right: 10px;}
+.section1{background-image: url(./images/kiddies.webp); height: 600px;background-size: cover; display: flex;}
+.column1{text-align: center; width: 100%;align-self: center;}
+.h1{font-size: 90px;padding: 20px;}
+.p{font-size: 20px;}
+.section2{display:flex; width: 100%;}
+.sect-img{width: 100px}
