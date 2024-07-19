@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lily_header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(224, 224, 224, 0.5);
+  padding: 10px 20px;
+}
+.lily_header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.lily_header nav a {
+  text-decoration: none;
+  color: black;
+}
+.lily_logo img {
+  width: 50px;
+}
+.landing {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/lily_banner.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing_content {
+  color: white;
+  text-align: center;
+}
+.landing_content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.landing_content h1 span {
+  color: #095e09;
+  font-family: cursive;
+}
+.landing_content p {
+  width: 50%;
+  line-height: 1.6;
+  margin: auto;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.landing_content button {
+  font-size: 14px;
+  background-color: #095e09;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px;
+}
+.lily_footer {
+  padding: 20px;
+  border-bottom: 1px solid #dedede;
+  text-align: center;
+}
+.lily_footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
