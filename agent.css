@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation > ul{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    gap: 14px ;
+    text-decoration: none;
+}
+.number1{
+text-align: center;
+}
+.IMAGEANDTEXT img{
+    width: 100%;
+    display: flex;
+}
+
+    
