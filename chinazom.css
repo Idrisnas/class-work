@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #543310;
+    height: 50px;
+}
+.nav_2{
+    display: flex;
+    gap: 30px;
+}
+.nav_2 li{
+    list-style: none;
+    color: #f8f4e1;
+    cursor: pointer;
+}
+.intro{
+    width: 100%;
+    height: 500px;
+    background-color: #74512d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.intro h1{
+    color: #543310;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+.intro h4{
+    color: #f8f4e1;
+    font-size: 40px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.hero_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height:500px ;
+    gap: 20px;
+}
+.hero_one button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #f8f4e1;
+    background-color: #74512d;
+}
+.hero_two{
+    width: 45%;
+    height: 500px;
+}
+.hero_two img{
+    width: 100%;
+    height: 500px;
+}
+.case{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.missviss{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #74512d;
+}
+.missviss h1{
+    color: #f8f4e1;
+}
