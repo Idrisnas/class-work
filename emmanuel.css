@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 135px;
+}
+.logo img {
+    padding: 20px 50px;
+}
+.nav_top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav_top_one > ul {
+    display: flex;
+}
+.nav_top_one > ul li {
+    margin: 20px 20px 10px 20px;
+}
+.btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ffbc0d;
+    border: none;
+    border-radius: 5px;
+}
+.nav_top_two > ul li {
+    margin: 20px 20px 10px 20px;
+}
+.nav_top_two > ul {
+    display: flex;
+}
+.nav_top_two {
+    padding-right: 100px;
+}
+.nav_top_two ul li:nth-child(2){
+    color: #0b74b3;
+    text-decoration: underline;
+}
+.nav_bottom > ul {
+    display: flex;
+}
+.nav_bottom > ul  li{
+    margin: 40px 18px;
+}
+
+.food_row {
+    display: flex;
+    padding: 100px 20px 30px 60px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.food_row_img {
+    width: 700px;
+}
+.food_row_text {
+    padding-left: 30px;
+    padding-right: 90px;
+}
+.food_row_text h3 {
+    font-size: 38px;
+}
+.food_row_text p {
+    font-size: 15px;
+    padding-top: 30px;
+}
+.food_row_text span {
+    font-weight: bolder;
+}
+.food_row_text p:nth-child(3){
+    padding-top: 15px !important;
+    font-size: 10px;
+}
+
+.food_row_btn button{
+    padding: 17px 30px;
+    background-color: #ffbc0d;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.emma {
+    padding-left: 100px;
+    padding-right: 0px;
+    font-size: 40px;
+}
